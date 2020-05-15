@@ -2120,7 +2120,7 @@ output {
 }
 
 .form-control:-ms-input-placeholder {
-    color: #999
+    color: #999;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -5651,7 +5651,7 @@ blockquote.large-spacing {
 }
 
 .fa-icon {
-    color: #000;
+    color: white;
     width: 32px;
     height: 32px;
     line-height: 29px;
@@ -5659,11 +5659,11 @@ blockquote.large-spacing {
     text-align: center;
     display: inline-block;
     border-radius: 60px;
-    border: 1px solid #000
+    border: 1px solid white
 }
 
 .fa-icon:hover {
-    background-color: #000;
+    background-color: white;
     color: #fff
 }
 

@@ -1,5 +1,6 @@
 # Import FlaskLibrary
 from flask import Flask, render_template, url_for
+import requests
 
 # We use the flask class to instanciate a class
 app = Flask(__name__)
@@ -14,7 +15,9 @@ def my_home():
 def html_page(page_name):    
     return render_template(page_name)
 
-
+@app.route('/submit_form', methods=['POST', 'GET'])
+def submit_form():
+    return 'form submitted hooooray'
 
 
 
