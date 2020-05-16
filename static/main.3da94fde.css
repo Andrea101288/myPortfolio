@@ -5703,27 +5703,32 @@ h2.with-project-number .project-number {
 
 .project-nav {
     position: relative;
-    z-index: 1
+    z-index: 1;
+    background-color: transparent
 }
 
 .project-nav,
 .project-nav .project-number {
     -webkit-transition: all .2s linear;
     -o-transition: all .2s linear;
-    transition: all .2s linear
+    transition: all .2s linear;
+    background-color: transparent
 }
 
 .project-nav .project-number {
-    font-size: 5em
+    font-size: 5em;
+    background-color: transparent
 }
 
 .project-nav:hover .project-number {
-    color: #ccc
+    color: #ccc;
+    background-color: transparent
 }
 
 @media (min-width:768px) {
     .project-nav.left .project-number {
-        margin-left: -4rem
+        margin-left: -4rem;
+        background-color: transparent
     }
 }
 
